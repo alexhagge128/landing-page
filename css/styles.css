@@ -1,13 +1,19 @@
+html, body {
+margin:0;
+padding:0;
+}
+
 *{
   font-family: helvetica;
 }
 
 .top-of-site {
-  background-image: url('../css/grand-canyon.jpg');
+  background: linear-gradient(rgba(48, 48, 48, 0.5), rgba(255, 107, 107, 0.5)), url('../css/grand-canyon.jpg');
   width: 100%;
-  height: auto;
+  height: 700px;
   background-repeat: no-repeat;
   background-position: center top;
+
 
 
 }
@@ -16,6 +22,13 @@
   display: inline-block;
   margin: 20px;
   color: white;
+  text-decoration: none;
+}
+
+.link-list :hover,
+.link-list :focus {
+  color: violet;
+  text-decoration: none;
 }
 
 .link-list{
@@ -34,6 +47,7 @@
   width: 200px;
   height: auto;
   display: inline-block;
+  opacity: 0.55;
 }
 
 
@@ -82,9 +96,10 @@
 }
 
 .tile-image{
-  width: 200px;
+  width: 80px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.3;
 }
