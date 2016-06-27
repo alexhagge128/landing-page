@@ -55,3 +55,36 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.link-tile{
+  display: inline-block;
+  width: 300px;
+  margin: 25px;
+  text-align: center;
+}
+
+.tile-title{
+  color: grey;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+.tile-detail{
+  color: grey;
+  font-size: 14px;
+}
+
+#footerText{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}
+
+.tile-image{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
